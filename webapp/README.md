@@ -1,6 +1,6 @@
 # Web client
 
-Nous verrons ici toutes les étapes nécessaires à l'utilisation de ce client web pour notre projet final en Services Web.
+Nous verrons ici toutes les étapes nécessaires à l'utilisation de ce client web pour mon projet final en Services Web.
 
 - [Web client](#web-client)
   - [Installation](#installation)
@@ -44,7 +44,7 @@ Le déploiement est encore au niveau du développement donc plusieurs étapes so
 
 ## Gallerie du projet
 
-Vous Aurez des résultats différents selon les films et séries ajoutés dans la base de données à l'aide de l'outil bureau! Vous devriez néanmoins retrouver la même mise en forme et page d'accueil!
+Vous aurez des résultats différents selon les films et séries ajoutés dans la base de données à l'aide de l'outil bureau! Vous devriez néanmoins retrouver la même mise en forme et page d'accueil!
 
 ### La page d'accueil
 
@@ -65,20 +65,16 @@ Vous Aurez des résultats différents selon les films et séries ajoutés dans l
 
 ## Support
 
-Pour toutes questions, vous pouvez contacter un membre de l'équipe de développement aux adresses courriels suivantes ou sur leur github:
+Pour toutes questions, vous pouvez contacter un membre de l'équipe de développement:
 
-1. Charlie Wambo : <https://github.com/charliewambo31>
-2. Robert-Sergo Dimanche: robertsergodimanche@gmail.com
-3. Christopher Desrosiers Mondor : desrosch@gmail.com
+1. Christopher Desrosiers Mondor : desrosch@gmail.com
 
 ## Auteurs et reconnaissances
 
 ### Les membres de l'équipe
 
-1. Charlie Wambo
-2. Robert-Sergo Dimanche
-3. Christopher Desrosiers Mondor
+1. Christopher Desrosiers Mondor
 
 ## État du projet
 
-Le projet est en développement et dans le processus d'être évalué pour le projet final combiné entre Services Web et Développement d'applications de bureau dans le cadre d'un AEC en développement de logiciels.
+Le projet à été remis pour évaluation pour le projet final combiné entre Services Web et Développement d'applications de bureau dans le cadre d'un AEC en développement de logiciels.

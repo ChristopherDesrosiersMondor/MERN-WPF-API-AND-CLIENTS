@@ -40,7 +40,7 @@ Nous verrons ici toutes les étapes nécessaires à l'utilisation de cette API q
 
 ## Installation
 
-Le déploiement de notre api dans un environnement de développement inclus plusieurs étapes de mise en place, mais rien de trop compliqué. Voici les étapes à suivre.  
+Le déploiement de l'api dans un environnement de développement inclus plusieurs étapes de mise en place, mais rien de trop compliqué. Voici les étapes à suivre.  
 
 1. Télécharger le projet sur votre machine.
 2. Installer mangodb community server - Pendant l'installation conservez les configurations par default.
@@ -72,7 +72,7 @@ Vous pouvez consulter la documentation swagger à l'adresse suivante après avoi
 
 ## Utilisation et tests
 
-Tous nos tests peuvent être trouvés dans le fichier tests.rest
+Tous les tests peuvent être trouvés dans le fichier tests.rest
 
 Pour faire vos propres tests, vous devez toujours vous assurer d'avoir les bon id en utilisant les méthodes get all sur les films et séries, à moins de vouloir tester les erreurs! Voici des exemples de tous les tests avec leurs requêtes et leurs réponses selon les situations.
 
@@ -537,20 +537,16 @@ Réponse:
 
 ## Support
 
-Pour toutes questions, vous pouvez contacter un membre de l'équipe de développement aux adresses courriels suivantes ou sur leur github:
+Pour toutes questions, vous pouvez contacter un membre de l'équipe de développement:
 
-1. Charlie Wambo : <https://github.com/charliewambo31>
-2. Robert-Sergo Dimanche: robertsergodimanche@gmail.com
-3. Christopher Desrosiers Mondor : desrosch@gmail.com
+1. Christopher Desrosiers Mondor : desrosch@gmail.com
 
 ## Auteurs et reconnaissances
 
 ### Les membres de l'équipe
 
-1. Charlie Wambo
-2. Robert-Sergo Dimanche
-3. Christopher Desrosiers Mondor
+1. Christopher Desrosiers Mondor
 
 ## État du projet
 
-Le projet est en développement et dans le processus d'être évalué pour le projet final combiné entre Services Web et Développement d'applications de bureau dans le cadre d'un AEC en développement de logiciels.
+Le projet à été remis pour évaluation pour le projet final combiné entre Services Web et Développement d'applications de bureau dans le cadre d'un AEC en développement de logiciels.

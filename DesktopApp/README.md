@@ -21,7 +21,7 @@ Nous verrons ici toutes les étapes nécessaires à l'utilisation de ce client d
 
 ## Installation
 
-Pour utiliser notre client desktop il est essentiel d'avoir préalablement suivit les étapes d'installation de notre API. Voir le README dans le dossier API du présent projet.
+Pour utiliser le client desktop il est essentiel d'avoir préalablement suivit les étapes d'installation de l'API. Voir le README dans le dossier API du présent projet.
 
 Si c'est fait, suivez ces instructions.
 
@@ -90,20 +90,16 @@ Vous Aurez des résultats différents selon les films et séries ajoutés dans l
 
 ## Support
 
-Pour toutes questions, vous pouvez contacter un membre de l'équipe de développement aux adresses courriels suivantes ou sur leur github:
+Pour toutes questions, vous pouvez contacter un membre de l'équipe de développement:
 
-1. Charlie Wambo : <https://github.com/charliewambo31>
-2. Robert-Sergo Dimanche: robertsergodimanche@gmail.com
-3. Christopher Desrosiers Mondor : desrosch@gmail.com
+1. Christopher Desrosiers Mondor : desrosch@gmail.com
 
 ## Auteurs et reconnaissances
 
 ### Les membres de l'équipe
 
-1. Charlie Wambo
-2. Robert-Sergo Dimanche
-3. Christopher Desrosiers Mondor
+1. Christopher Desrosiers Mondor
 
 ## État du projet
 
-Le projet est en développement et dans le processus d'être évalué pour le projet final combiné entre Services Web et Développement d'applications de bureau dans le cadre d'un AEC en développement de logiciels.
+Le projet à été remis pour évaluation pour le projet final combiné entre Services Web et Développement d'applications de bureau dans le cadre d'un AEC en développement de logiciels.
