@@ -44,23 +44,23 @@ Le déploiement de l'api dans un environnement de développement inclus plusieur
 
 1. Télécharger le projet sur votre machine.
 2. Installer mangodb community server - Pendant l'installation conservez les configurations par default.
-<https://www.mongodb.com/try/download/community>
+    <https://www.mongodb.com/try/download/community>
 
-1. Ouvrir MongoDBCompass et vous connecter à l'adresse de la base de donnée proposée (ce devrait être : mongodb://localhost:27017).
-2. Dans VScode, ouvrez le projet et lancer un terminal. Si vous ne l'avez pas déja, vous aurez aussi besoin de l'extension: rest client
-3. Positionnez vous dans le dossier API à l'aide de la commande suivante
+3. Ouvrir MongoDBCompass et vous connecter à l'adresse de la base de donnée proposée (ce devrait être : mongodb://localhost:27017).
+4. Dans VScode, ouvrez le projet et lancer un terminal. Si vous ne l'avez pas déja, vous aurez aussi besoin de l'extension: rest client
+5. Positionnez vous dans le dossier API à l'aide de la commande suivante
 
     ```terminal
     cd '.\Évaluation finale\API'
     ```
 
-4. Lancer la commande suivante pour installer les dépendances du projet
+6. Lancer la commande suivante pour installer les dépendances du projet
 
     ```terminal
     npm install
     ```
 
-5. Lancer l'api avec la commande suivante
+7. Lancer l'api avec la commande suivante
 
     ```terminal
     npm run developement
