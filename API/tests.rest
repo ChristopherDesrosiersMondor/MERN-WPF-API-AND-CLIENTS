@@ -1,0 +1,110 @@
+### GET tous les films
+GET http://localhost:1312/films/ HTTP/1.1
+
+### GET tous les series
+GET http://localhost:1312/series/ HTTP/1.1
+
+### GET movie by id
+GET http://localhost:1312/films/63ff8f35e5eb1b8693c08659 HTTP/1.1
+
+### GET movie by id fail
+GET http://localhost:1312/films/63ff8f35e5eb1b8693c08657 HTTP/1.1
+
+### GET show by id
+GET http://localhost:1312/series/63ff8e79e5eb1b8693c08652 HTTP/1.1
+
+### GET show by id fail
+GET http://localhost:1312/series/63ff8e79e5eb1b8693c08657 HTTP/1.1
+
+### POST un film
+POST http://localhost:1312/films/ HTTP/1.1
+Content-Type: application/json
+
+{
+  "titre": "Dune -2",
+  "synopsis": "In the distant future, Duke Leto of House Atreides, ruler of the ocean planet Caladan, is assigned by the Padishah Emperor Shaddam IV of House Corrino to replace House Harkonnen as the fiefholder of Arrakis, a harsh desert planet and the only source of \"spice\", a valuable psychotropic drug that imparts heightened vitality and awareness to its users.",
+  "annee": "2021",
+  "duree": "155",
+  "posterImage": "https://upload.wikimedia.org/wikipedia/en/8/8e/Dune_%282021_film%29.jpg"
+}
+
+### POST un film - fail
+POST http://localhost:1312/films/ HTTP/1.1
+Content-Type: application/json
+
+{
+  "titre": "Dune -2",
+  "synopsis": "In the distant future, Duke Leto of House Atreides, ruler of the ocean planet Caladan, is assigned by the Padishah Emperor Shaddam IV of House Corrino to replace House Harkonnen as the fiefholder of Arrakis, a harsh desert planet and the only source of \"spice\", a valuable psychotropic drug that imparts heightened vitality and awareness to its users.",
+  "posterImage": "https://upload.wikimedia.org/wikipedia/en/8/8e/Dune_%282021_film%29.jpg"
+}
+
+### POST une serie
+POST http://localhost:1312/series/ HTTP/1.1
+Content-Type: application/json
+
+{
+  "titre": "The magicians - 2",
+  "synopsis": "Quentin Coldwater enrolls at Brakebills University for Magical Pedagogy to be trained as a magician, where he discovers that the magical world from his favorite childhood book is real and poses a danger to humanity. Meanwhile, the life of his childhood friend Julia is derailed when she is denied entry, and she searches for magic elsewhere outside of the school.",
+  "annee": "2015-2020",
+  "duree": "41-52",
+  "posterImage": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQk7-HgsnULrB_996llKozoJF_sHR3OLRc8GchfYsv3Y6qj7Gai",
+  "productionStatus": "Ended",
+  "nombreSaisons": 5
+}
+
+
+### POST une serie fail
+POST http://localhost:1312/series/ HTTP/1.1
+Content-Type: application/json
+
+{
+  "titre": "The magicians",
+  "synopsis": "Quentin Coldwater enrolls at Brakebills University for Magical Pedagogy to be trained as a magician, where he discovers that the magical world from his favorite childhood book is real and poses a danger to humanity. Meanwhile, the life of his childhood friend Julia is derailed when she is denied entry, and she searches for magic elsewhere outside of the school.",
+  "posterImage": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQk7-HgsnULrB_996llKozoJF_sHR3OLRc8GchfYsv3Y6qj7Gai",
+  "productionStatus": "Ended",
+  "nombreSaisons": 5
+}
+
+### PATCH une serie avec id
+PATCH http://localhost:1312/series/6402217e362a47615b742817 HTTP/1.1
+Content-Type: application/json
+
+{
+  "titre": "The magicians - 2 - patch test"
+}
+
+### PATCH une serie avec id - fail
+PATCH http://localhost:1312/series/6402217e362a47615b742815 HTTP/1.1
+Content-Type: application/json
+
+{
+  "titre": "The magicians - 2 - patch test"
+}
+
+### PATCH un film avec id
+PATCH http://localhost:1312/films/640220e3362a47615b742814 HTTP/1.1
+Content-Type: application/json
+
+{
+  "titre": "Dune - 2 - patch test"
+}
+
+### PATCH un film avec id - fail
+PATCH http://localhost:1312/films/640220e3362a47615b742817 HTTP/1.1
+Content-Type: application/json
+
+{
+  "titre": "Dune - 2 - patch test fail"
+}
+
+### Delete film by id
+DELETE http://localhost:1312/films/640220e3362a47615b742814 HTTP/1.1
+
+### Delete film by id - fail
+DELETE http://localhost:1312/films/640220e3362a47615b742814 HTTP/1.1
+
+### Delete tv show by id
+DELETE http://localhost:1312/series/6402217e362a47615b742817 HTTP/1.1
+
+### Delete tv show by id - fail
+DELETE http://localhost:1312/series/6402217e362a47615b742817 HTTP/1.1

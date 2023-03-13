@@ -1,0 +1,713 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EmployeesSoftware</name>
+    </assembly>
+    <members>
+        <member name="T:EmployeesSoftware.DAO.ApiDAO.MoviesDAO">
+            <summary>
+            The movies d a o that enables us to separate business and database logic for the api calls concerning movies.
+            </summary>
+        </member>
+        <member name="M:EmployeesSoftware.DAO.ApiDAO.MoviesDAO.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:EmployeesSoftware.DAO.ApiDAO.MoviesDAO"/> class.
+            </summary>
+        </member>
+        <member name="M:EmployeesSoftware.DAO.ApiDAO.MoviesDAO.GetAllMovies">
+            <summary>
+            Gets all movies.
+            </summary>
+            <returns>A list of <see cref="T:EmployeesSoftware.Models.APIResponses.Movie"/> objects</returns>
+        </member>
+        <member name="M:EmployeesSoftware.DAO.ApiDAO.MoviesDAO.AddMovie(EmployeesSoftware.Models.APIResponses.Movie)">
+            <summary>
+            Adds the movie.
+            </summary>
+            <param name="UnMovie">The movie.</param>
+            <returns>The responses code string representaion</returns>
+        </member>
+        <member name="M:EmployeesSoftware.DAO.ApiDAO.MoviesDAO.DeleteMovie(EmployeesSoftware.Models.APIResponses.Movie)">
+            <summary>
+            Deletes the movie.
+            </summary>
+            <param name="UnMovie">The movie.</param>
+            <returns>The responses code string representaion</returns>
+        </member>
+        <member name="M:EmployeesSoftware.DAO.ApiDAO.MoviesDAO.UpdateMovie(EmployeesSoftware.Models.APIResponses.Movie)">
+            <summary>
+            Updates the movie.
+            </summary>
+            <param name="UnMovie">The movie.</param>
+            <returns>The responses code string representaion</returns>
+        </member>
+        <member name="M:EmployeesSoftware.DAO.ApiDAO.MoviesDAO.getBody(EmployeesSoftware.Models.APIResponses.Movie)">
+            <summary>
+            Returns a stringcontent that we can use as a body for a http request based on a Movie class to be able to use the <see cref="T:EmployeesSoftware.Models.APIResponses.Movie"/> instance 
+            </summary>
+            <param name="UnMovie">The movie.</param>
+            <returns>A StringContent.</returns>
+        </member>
+        <member name="T:EmployeesSoftware.DAO.ApiDAO.SeriesDAO">
+            <summary>
+            The series d a o enabling us to separate business and database logic for the api calls about tv shows.
+            </summary>
+        </member>
+        <member name="M:EmployeesSoftware.DAO.ApiDAO.SeriesDAO.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:EmployeesSoftware.DAO.ApiDAO.SeriesDAO"/> class.
+            </summary>
+        </member>
+        <member name="M:EmployeesSoftware.DAO.ApiDAO.SeriesDAO.GetAllShows">
+            <summary>
+            Gets all shows.
+            </summary>
+            <returns>A Task.</returns>
+        </member>
+        <member name="M:EmployeesSoftware.DAO.ApiDAO.SeriesDAO.AddShow(EmployeesSoftware.Models.APIResponses.Serie)">
+            <summary>
+            Adds the show.
+            </summary>
+            <param name="UnShow">The un show.</param>
+            <returns>A Task.</returns>
+        </member>
+        <member name="M:EmployeesSoftware.DAO.ApiDAO.SeriesDAO.DeleteShow(EmployeesSoftware.Models.APIResponses.Serie)">
+            <summary>
+            Deletes the show.
+            </summary>
+            <param name="UnShow">The un show.</param>
+            <returns>A Task.</returns>
+        </member>
+        <member name="M:EmployeesSoftware.DAO.ApiDAO.SeriesDAO.UpdateShow(EmployeesSoftware.Models.APIResponses.Serie)">
+            <summary>
+            Updates the show.
+            </summary>
+            <param name="UnShow">The un show.</param>
+            <returns>A Task.</returns>
+        </member>
+        <member name="M:EmployeesSoftware.DAO.ApiDAO.SeriesDAO.getBody(EmployeesSoftware.Models.APIResponses.Serie)">
+            <summary>
+            Returns a stringcontent that we can use as a body for a http request based on a Movie class to be able to use the <see cref="T:EmployeesSoftware.Models.APIResponses.Serie"/> instance 
+            </summary>
+            <param name="UnShow">The un show.</param>
+            <returns>A StringContent.</returns>
+        </member>
+        <member name="T:EmployeesSoftware.DAO.UserModelDAO.EmployeeCodesDAO">
+            <summary>
+            The employee codes d a o to enable us to separate business and database logic for employee codes access.
+            </summary>
+        </member>
+        <member name="M:EmployeesSoftware.DAO.UserModelDAO.EmployeeCodesDAO.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:EmployeesSoftware.DAO.UserModelDAO.EmployeeCodesDAO"/> class.
+            </summary>
+        </member>
+        <member name="M:EmployeesSoftware.DAO.UserModelDAO.EmployeeCodesDAO.CreateNewCode(System.String)">
+            <summary>
+            Creates the new code.
+            </summary>
+            <param name="InscriptionCode">The inscription code.</param>
+        </member>
+        <member name="M:EmployeesSoftware.DAO.UserModelDAO.EmployeeCodesDAO.getCodes">
+            <summary>
+            gets the codes.
+            </summary>
+            <returns>A list of EmployeeCodes.</returns>
+        </member>
+        <member name="M:EmployeesSoftware.DAO.UserModelDAO.EmployeeCodesDAO.getCode(System.String)">
+            <summary>
+            gets the code.
+            </summary>
+            <param name="Code">The code.</param>
+            <returns>An EmployeeCode.</returns>
+        </member>
+        <member name="M:EmployeesSoftware.DAO.UserModelDAO.EmployeeCodesDAO.DeleteCode(EmployeesSoftware.Models.EmployeeCode)">
+            <summary>
+            Deletes the code.
+            </summary>
+            <param name="code">The code.</param>
+        </member>
+        <member name="T:EmployeesSoftware.DAO.UserModelDAO.UserDAO">
+            <summary>
+            A dao class to separate business and database logic for user interaction in the .sdf database of the project.
+            </summary>
+        </member>
+        <member name="M:EmployeesSoftware.DAO.UserModelDAO.UserDAO.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:EmployeesSoftware.DAO.UserModelDAO.UserDAO"/> class.
+            </summary>
+        </member>
+        <member name="M:EmployeesSoftware.DAO.UserModelDAO.UserDAO.AddUser(System.DateTime,System.String,System.String,System.String)">
+            <summary>
+            Adds the user to the database.
+            </summary>
+            <param name="UserSince">The user since.</param>
+            <param name="Name">The name.</param>
+            <param name="Username">The username.</param>
+            <param name="Password">The password.</param>
+        </member>
+        <member name="M:EmployeesSoftware.DAO.UserModelDAO.UserDAO.GetUser(System.Int32)">
+            <summary>
+            Gets the user by id from database.
+            </summary>
+            <param name="Id">The id.</param>
+            <returns>An User.</returns>
+        </member>
+        <member name="M:EmployeesSoftware.DAO.UserModelDAO.UserDAO.IsUser(System.String,System.String)">
+            <summary>
+            Check if a user exists in the database with the information given to us
+            </summary>
+            <param name="username">The username.</param>
+            <param name="password">The password.</param>
+            <returns>A bool.</returns>
+        </member>
+        <member name="M:EmployeesSoftware.DAO.UserModelDAO.UserDAO.AlreadyExists(EmployeesSoftware.Models.User)">
+            <summary>
+            Checks if a user is already in the database
+            </summary>
+            <param name="user">The user.</param>
+            <returns>A bool.</returns>
+        </member>
+        <member name="M:EmployeesSoftware.DAO.UserModelDAO.UserDAO.GetAllUsers">
+            <summary>
+            Gets all users.
+            </summary>
+            <returns>A list of Users.</returns>
+        </member>
+        <member name="M:EmployeesSoftware.DAO.UserModelDAO.UserDAO.UpdateUser(System.Int32,System.String,System.String,System.String)">
+            <summary>
+            Updates the user in the database.
+            </summary>
+            <param name="Id">The id.</param>
+            <param name="Name">The name.</param>
+            <param name="Username">The username.</param>
+            <param name="Password">The password.</param>
+        </member>
+        <member name="M:EmployeesSoftware.DAO.UserModelDAO.UserDAO.DeleteUser(System.Int32)">
+            <summary>
+            Deletes the user in the database.
+            </summary>
+            <param name="Id">The id.</param>
+        </member>
+        <member name="T:EmployeesSoftware.Models.APIResponses.Movie">
+            <summary>
+            Movie class to be able to use the <see cref="T:EmployeesSoftware.DAO.ApiDAO.MoviesDAO"/> class 
+            </summary>
+        </member>
+        <member name="P:EmployeesSoftware.Models.APIResponses.Movie._id">
+            <summary>
+            Gets or sets the _id.
+            </summary>
+        </member>
+        <member name="P:EmployeesSoftware.Models.APIResponses.Movie.titre">
+            <summary>
+            Gets or sets the titre.
+            </summary>
+        </member>
+        <member name="P:EmployeesSoftware.Models.APIResponses.Movie.synopsis">
+            <summary>
+            Gets or sets the synopsis.
+            </summary>
+        </member>
+        <member name="P:EmployeesSoftware.Models.APIResponses.Movie.annee">
+            <summary>
+            Gets or sets the annee.
+            </summary>
+        </member>
+        <member name="P:EmployeesSoftware.Models.APIResponses.Movie.duree">
+            <summary>
+            Gets or sets the duree.
+            </summary>
+        </member>
+        <member name="P:EmployeesSoftware.Models.APIResponses.Movie.posterImage">
+            <summary>
+            Gets or sets the poster image.
+            </summary>
+        </member>
+        <member name="P:EmployeesSoftware.Models.APIResponses.Movie.__v">
+            <summary>
+            Gets or sets the __v.
+            </summary>
+        </member>
+        <member name="M:EmployeesSoftware.Models.APIResponses.Movie.ToString">
+            <summary>
+            String representation for <see cref="T:EmployeesSoftware.Models.APIResponses.Movie"/> object.
+            </summary>
+            <returns>A string.</returns>
+        </member>
+        <member name="T:EmployeesSoftware.Models.APIResponses.Serie">
+            <summary>
+            Movie class to be able to use the <see cref="T:EmployeesSoftware.DAO.ApiDAO.SeriesDAO"/> class 
+            </summary>
+        </member>
+        <member name="P:EmployeesSoftware.Models.APIResponses.Serie._id">
+            <summary>
+            Gets or sets the _id.
+            </summary>
+        </member>
+        <member name="P:EmployeesSoftware.Models.APIResponses.Serie.titre">
+            <summary>
+            Gets or sets the titre.
+            </summary>
+        </member>
+        <member name="P:EmployeesSoftware.Models.APIResponses.Serie.synopsis">
+            <summary>
+            Gets or sets the synopsis.
+            </summary>
+        </member>
+        <member name="P:EmployeesSoftware.Models.APIResponses.Serie.annee">
+            <summary>
+            Gets or sets the annee.
+            </summary>
+        </member>
+        <member name="P:EmployeesSoftware.Models.APIResponses.Serie.duree">
+            <summary>
+            Gets or sets the duree.
+            </summary>
+        </member>
+        <member name="P:EmployeesSoftware.Models.APIResponses.Serie.posterImage">
+            <summary>
+            Gets or sets the poster image.
+            </summary>
+        </member>
+        <member name="P:EmployeesSoftware.Models.APIResponses.Serie.productionStatus">
+            <summary>
+            Gets or sets the production status.
+            </summary>
+        </member>
+        <member name="P:EmployeesSoftware.Models.APIResponses.Serie.nombreSaisons">
+            <summary>
+            Gets or sets the nombre saisons.
+            </summary>
+        </member>
+        <member name="P:EmployeesSoftware.Models.APIResponses.Serie.__v">
+            <summary>
+            Gets or sets the __v.
+            </summary>
+        </member>
+        <member name="M:EmployeesSoftware.Models.APIResponses.Serie.ToString">
+            <summary>
+            String representation of <see cref="T:EmployeesSoftware.Models.APIResponses.Serie"/> object.
+            </summary>
+            <returns>A string.</returns>
+        </member>
+        <member name="T:EmployeesSoftware.Models.EmployeeCode">
+            <summary>
+            The employee code model to use with <see cref="T:EmployeesSoftware.Models.UsersDBContext"/> class
+            </summary>
+        </member>
+        <member name="P:EmployeesSoftware.Models.EmployeeCode.Id">
+            <summary>
+            Gets or sets the id.
+            </summary>
+        </member>
+        <member name="P:EmployeesSoftware.Models.EmployeeCode.InscriptionCode">
+            <summary>
+            Gets or sets the inscription code.
+            </summary>
+        </member>
+        <member name="T:EmployeesSoftware.Models.User">
+            <summary>
+            A user model to be used with the dbcontext <see cref="T:EmployeesSoftware.Models.UsersDBContext"/> class
+            </summary>
+        </member>
+        <member name="P:EmployeesSoftware.Models.User.Id">
+            <summary>
+            Gets or sets the id.
+            </summary>
+        </member>
+        <member name="P:EmployeesSoftware.Models.User.UserSince">
+            <summary>
+            Gets or sets the user since.
+            </summary>
+        </member>
+        <member name="P:EmployeesSoftware.Models.User.Name">
+            <summary>
+            Gets or sets the name.
+            </summary>
+        </member>
+        <member name="P:EmployeesSoftware.Models.User.Username">
+            <summary>
+            Gets or sets the username.
+            </summary>
+        </member>
+        <member name="P:EmployeesSoftware.Models.User.Password">
+            <summary>
+            Gets or sets the password.
+            </summary>
+        </member>
+        <member name="T:EmployeesSoftware.Models.UsersDBContext">
+            <summary>
+            A custom dbcontext with a set of users and codes
+            </summary>
+        </member>
+        <member name="P:EmployeesSoftware.Models.UsersDBContext.users">
+            <summary>
+            Gets or sets the users.
+            </summary>
+        </member>
+        <member name="P:EmployeesSoftware.Models.UsersDBContext.codes">
+            <summary>
+            Gets or sets the codes.
+            </summary>
+        </member>
+        <member name="T:EmployeesSoftware.Views.SeriesWindow">
+            <summary>
+            Logique d'interaction pour SeriesWindow.xaml
+            </summary>
+            <summary>
+            SeriesWindow
+            </summary>
+        </member>
+        <member name="M:EmployeesSoftware.Views.SeriesWindow.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:EmployeesSoftware.Views.SeriesWindow"/> class.
+            </summary>
+        </member>
+        <member name="M:EmployeesSoftware.Views.SeriesWindow.refreshShows">
+            <summary>
+            Send a request to the api for all stored series in api db and reset the view.
+            </summary>
+        </member>
+        <member name="M:EmployeesSoftware.Views.SeriesWindow.btn_film_series_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates a new <see cref="T:EmployeesSoftware.Views.FilmWindow"/> and closes this one.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:EmployeesSoftware.Views.SeriesWindow.btn_serie_series_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Does nothing cause we are already in <see cref="T:EmployeesSoftware.Views.SeriesWindow"/> view.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:EmployeesSoftware.Views.SeriesWindow.menu_item_accueil_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates a new <see cref="T:EmployeesSoftware.Views.AccueilWindow"/> and closes this one.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:EmployeesSoftware.Views.SeriesWindow.menu_item_deconnect_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates a new <see cref="T:EmployeesSoftware.Views.ConnectionWindow"/> and closes this one.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:EmployeesSoftware.Views.SeriesWindow.menu_item_quitter_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Exits the program.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:EmployeesSoftware.Views.SeriesWindow.btn_delete_serie_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Deletes a show from api db.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:EmployeesSoftware.Views.SeriesWindow.btn_ajouter_serie_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Calls <see cref="M:EmployeesSoftware.DAO.ApiDAO.SeriesDAO.AddShow(EmployeesSoftware.Models.APIResponses.Serie)"/> and <see cref="M:EmployeesSoftware.Views.SeriesWindow.refreshShows"/> with this view form informations
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:EmployeesSoftware.Views.SeriesWindow.btn_modifier_serie_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Calls <see cref="M:EmployeesSoftware.DAO.ApiDAO.SeriesDAO.UpdateShow(EmployeesSoftware.Models.APIResponses.Serie)"/> and <see cref="M:EmployeesSoftware.Views.SeriesWindow.refreshShows"/> 
+            with this view form informations updated based on the <see cref="F:EmployeesSoftware.Views.SeriesWindow.datagrid_view_series"/> selected item.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:EmployeesSoftware.Views.SeriesWindow.btn_cancl_action_serie_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Cancels all current actions by reseting view with <see cref="M:EmployeesSoftware.Views.SeriesWindow.refreshShows"/>
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:EmployeesSoftware.Views.SeriesWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:EmployeesSoftware.Views.SignUpWindow">
+            <summary>
+            Logique d'interaction pour SignUpWindow.xaml
+            </summary>
+            <summary>
+            SignUpWindow
+            </summary>
+        </member>
+        <member name="M:EmployeesSoftware.Views.SignUpWindow.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:EmployeesSoftware.Views.SignUpWindow"/> class.
+            </summary>
+        </member>
+        <member name="M:EmployeesSoftware.Views.SignUpWindow.menu_connexion_signup_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates a new <see cref="T:EmployeesSoftware.Views.ConnectionWindow"/> and closes this one
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:EmployeesSoftware.Views.SignUpWindow.menu_quitter_signup_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Exits the program
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:EmployeesSoftware.Views.SignUpWindow.btn_connexion_signup_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            1. Checks the form validity with <see cref="M:EmployeesSoftware.Views.SignUpWindow.FormValidity"/>
+            2. Creates a <see cref="T:EmployeesSoftware.Models.User"/> object from form informations
+            3. If the user doesnt already exists <see cref="M:EmployeesSoftware.DAO.UserModelDAO.UserDAO.AlreadyExists(EmployeesSoftware.Models.User)"/> and the given code 
+            exists <see cref="M:EmployeesSoftware.DAO.UserModelDAO.EmployeeCodesDAO.getCode(System.String)"/> it adds the user 
+            <see cref="M:EmployeesSoftware.DAO.UserModelDAO.UserDAO.AddUser(System.DateTime,System.String,System.String,System.String)"/> to the db 
+            and deletes <see cref="M:EmployeesSoftware.DAO.UserModelDAO.EmployeeCodesDAO.DeleteCode(EmployeesSoftware.Models.EmployeeCode)"/> the code used from the db causes the codes
+            are a one time key to add an account.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:EmployeesSoftware.Views.SignUpWindow.FormValidity">
+            <summary>
+            Checks the validity of the form
+            </summary>
+            <returns>A bool.</returns>
+        </member>
+        <member name="M:EmployeesSoftware.Views.SignUpWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:EmployeesSoftware.Views.AccueilWindow">
+            <summary>
+            Logique d'interaction pour AccueilWindow.xaml
+            </summary>
+            <summary>
+            AccueilWindow
+            </summary>
+        </member>
+        <member name="M:EmployeesSoftware.Views.AccueilWindow.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:EmployeesSoftware.Views.AccueilWindow"/> class.
+            </summary>
+        </member>
+        <member name="M:EmployeesSoftware.Views.AccueilWindow.btn_film_accueil_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates a new <see cref="T:EmployeesSoftware.Views.FilmWindow"/> and closes this one.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:EmployeesSoftware.Views.AccueilWindow.btn_serie_accueil_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates a new <see cref="T:EmployeesSoftware.Views.SeriesWindow"/> and closes this one.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:EmployeesSoftware.Views.AccueilWindow.menu_item_accueil_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Does nothing cause we are already in <see cref="T:EmployeesSoftware.Views.AccueilWindow"/> view.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:EmployeesSoftware.Views.AccueilWindow.menu_item_deconnect_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates a new <see cref="T:EmployeesSoftware.Views.ConnectionWindow"/> and closes this one.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:EmployeesSoftware.Views.AccueilWindow.menu_item_quitter_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Exits the program.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:EmployeesSoftware.Views.AccueilWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:EmployeesSoftware.Views.ConnectionWindow">
+            <summary>
+            Logique d'interaction pour MainWindow.xaml
+            </summary>
+            <summary>
+            ConnectionWindow
+            </summary>
+        </member>
+        <member name="M:EmployeesSoftware.Views.ConnectionWindow.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:EmployeesSoftware.Views.ConnectionWindow"/> class.
+            </summary>
+        </member>
+        <member name="M:EmployeesSoftware.Views.ConnectionWindow.menu_item_signup_connection_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates a new <see cref="T:EmployeesSoftware.Views.SignUpWindow"/> and close this one.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:EmployeesSoftware.Views.ConnectionWindow.menu_item_quitter_login_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Exits the program.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:EmployeesSoftware.Views.ConnectionWindow.btn_connexion_login_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Checks if the form is valid. If not, shows a message saying you need to enter all informations.
+            Checks if the info is linked to a user account and if so, open the <see cref="T:EmployeesSoftware.Views.AccueilWindow"/> and close this one.
+            If all that fail, shows a message saying you dont have access to the program.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:EmployeesSoftware.Views.ConnectionWindow.FormIsValid">
+            <summary>
+            Check if the form is valid.
+            </summary>
+            <returns>A bool.</returns>
+        </member>
+        <member name="M:EmployeesSoftware.Views.ConnectionWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:EmployeesSoftware.Views.FilmWindow">
+            <summary>
+            Logique d'interaction pour FilmWindow.xaml
+            </summary>
+            <summary>
+            FilmWindow
+            </summary>
+        </member>
+        <member name="M:EmployeesSoftware.Views.FilmWindow.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:EmployeesSoftware.Views.FilmWindow"/> class.
+            </summary>
+        </member>
+        <member name="M:EmployeesSoftware.Views.FilmWindow.refreshMovies">
+            <summary>
+            Send a request to the api for all stored movies in api db and reset the view.
+            </summary>
+        </member>
+        <member name="M:EmployeesSoftware.Views.FilmWindow.btn_film_film_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Does nothing cause we are already in film view.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:EmployeesSoftware.Views.FilmWindow.btn_serie_films_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates a new <see cref="T:EmployeesSoftware.Views.SeriesWindow"/> and closes this one
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:EmployeesSoftware.Views.FilmWindow.menu_item_accueil_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates a new <see cref="T:EmployeesSoftware.Views.AccueilWindow"/> and closes this one.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:EmployeesSoftware.Views.FilmWindow.menu_item_deconnect_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Creates a new <see cref="T:EmployeesSoftware.Views.ConnectionWindow"/> and closes this one
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:EmployeesSoftware.Views.FilmWindow.menu_item_quitter_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Closes the program.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:EmployeesSoftware.Views.FilmWindow.btn_ajouter_film_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Adds film to db using a dedicated dao for the api calls.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:EmployeesSoftware.Views.FilmWindow.btn_modifier_film_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Modify film to db using a dedicated dao for the api calls.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:EmployeesSoftware.Views.FilmWindow.btn_delete_film_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Deletes film from db using a dedicated dao for the api calls.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:EmployeesSoftware.Views.FilmWindow.btn_cancl_action_film_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Cancel all actual actions by reseting view
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:EmployeesSoftware.Views.FilmWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:EmployeesSoftware.App">
+            <summary>
+            Logique d'interaction pour App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:EmployeesSoftware.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:EmployeesSoftware.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:EmployeesSoftware.Properties.Resources">
+            <summary>
+              Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées.
+            </summary>
+        </member>
+        <member name="P:EmployeesSoftware.Properties.Resources.ResourceManager">
+            <summary>
+              Retourne l'instance ResourceManager mise en cache utilisée par cette classe.
+            </summary>
+        </member>
+        <member name="P:EmployeesSoftware.Properties.Resources.Culture">
+            <summary>
+              Remplace la propriété CurrentUICulture du thread actuel pour toutes
+              les recherches de ressources à l'aide de cette classe de ressource fortement typée.
+            </summary>
+        </member>
+    </members>
+</doc>
