@@ -16,11 +16,11 @@ Voici le lien pour le guide développeur:
 
 ## Liens vers les README de chaque sections
 
-API : [API](https://github.com/ChristopherDesrosiersMondor/equipe_services_web_et_bureau/tree/main/%C3%89valuation%20finale/API)
+API : [API](https://github.com/ChristopherDesrosiersMondor/MERN-WPF-API-AND-CLIENTS/tree/main/API)
 
-Client web: [Client web](https://github.com/ChristopherDesrosiersMondor/equipe_services_web_et_bureau/tree/main/%C3%89valuation%20finale/webapp)
+Client web: [Client web](https://github.com/ChristopherDesrosiersMondor/MERN-WPF-API-AND-CLIENTS/tree/main/webapp)
 
-Client bureau: [Client bureau](https://github.com/ChristopherDesrosiersMondor/equipe_services_web_et_bureau/tree/main/%C3%89valuation%20finale/DesktopApp)
+Client bureau: [Client bureau](https://github.com/ChristopherDesrosiersMondor/MERN-WPF-API-AND-CLIENTS/tree/main/DesktopApp)
 
 ## Sources et inspiration
 
