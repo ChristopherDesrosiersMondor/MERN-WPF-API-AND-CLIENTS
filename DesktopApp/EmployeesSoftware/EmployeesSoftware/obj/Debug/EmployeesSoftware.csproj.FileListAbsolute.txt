@@ -120,3 +120,44 @@ C:\Users\user\Documents\GitHub\equipe_services_web_et_bureau\Évaluation finale\
 C:\Users\user\Documents\GitHub\equipe_services_web_et_bureau\Évaluation finale\DesktopApp\EmployeesSoftware\EmployeesSoftware\obj\Debug\EmployeesSoftware.csproj.CopyComplete
 C:\Users\user\Documents\GitHub\equipe_services_web_et_bureau\Évaluation finale\DesktopApp\EmployeesSoftware\EmployeesSoftware\obj\Debug\EmployeesSoftware.exe
 C:\Users\user\Documents\GitHub\equipe_services_web_et_bureau\Évaluation finale\DesktopApp\EmployeesSoftware\EmployeesSoftware\obj\Debug\EmployeesSoftware.pdb
+C:\Users\Device1\Documents\GitHub\MERN-WPF-API-AND-CLIENTS\DesktopApp\EmployeesSoftware\EmployeesSoftware\bin\Debug\EmployeesSoftware.exe.config
+C:\Users\Device1\Documents\GitHub\MERN-WPF-API-AND-CLIENTS\DesktopApp\EmployeesSoftware\EmployeesSoftware\bin\Debug\EmployeesSoftware.xml
+C:\Users\Device1\Documents\GitHub\MERN-WPF-API-AND-CLIENTS\DesktopApp\EmployeesSoftware\EmployeesSoftware\bin\Debug\EmployeesSoftware.exe
+C:\Users\Device1\Documents\GitHub\MERN-WPF-API-AND-CLIENTS\DesktopApp\EmployeesSoftware\EmployeesSoftware\bin\Debug\EmployeesSoftware.pdb
+C:\Users\Device1\Documents\GitHub\MERN-WPF-API-AND-CLIENTS\DesktopApp\EmployeesSoftware\EmployeesSoftware\bin\Debug\EntityFramework.dll
+C:\Users\Device1\Documents\GitHub\MERN-WPF-API-AND-CLIENTS\DesktopApp\EmployeesSoftware\EmployeesSoftware\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Device1\Documents\GitHub\MERN-WPF-API-AND-CLIENTS\DesktopApp\EmployeesSoftware\EmployeesSoftware\bin\Debug\EntityFramework.SqlServerCompact.dll
+C:\Users\Device1\Documents\GitHub\MERN-WPF-API-AND-CLIENTS\DesktopApp\EmployeesSoftware\EmployeesSoftware\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Device1\Documents\GitHub\MERN-WPF-API-AND-CLIENTS\DesktopApp\EmployeesSoftware\EmployeesSoftware\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\Device1\Documents\GitHub\MERN-WPF-API-AND-CLIENTS\DesktopApp\EmployeesSoftware\EmployeesSoftware\bin\Debug\Z.EntityFramework.Extensions.dll
+C:\Users\Device1\Documents\GitHub\MERN-WPF-API-AND-CLIENTS\DesktopApp\EmployeesSoftware\EmployeesSoftware\bin\Debug\EntityFramework.xml
+C:\Users\Device1\Documents\GitHub\MERN-WPF-API-AND-CLIENTS\DesktopApp\EmployeesSoftware\EmployeesSoftware\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Device1\Documents\GitHub\MERN-WPF-API-AND-CLIENTS\DesktopApp\EmployeesSoftware\EmployeesSoftware\bin\Debug\EntityFramework.SqlServerCompact.xml
+C:\Users\Device1\Documents\GitHub\MERN-WPF-API-AND-CLIENTS\DesktopApp\EmployeesSoftware\EmployeesSoftware\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Device1\Documents\GitHub\MERN-WPF-API-AND-CLIENTS\DesktopApp\EmployeesSoftware\EmployeesSoftware\bin\Debug\Z.EntityFramework.Extensions.xml
+C:\Users\Device1\Documents\GitHub\MERN-WPF-API-AND-CLIENTS\DesktopApp\EmployeesSoftware\EmployeesSoftware\obj\Debug\EmployeesSoftware.csproj.AssemblyReference.cache
+C:\Users\Device1\Documents\GitHub\MERN-WPF-API-AND-CLIENTS\DesktopApp\EmployeesSoftware\EmployeesSoftware\obj\Debug\EmployeesSoftware.csproj.SuggestedBindingRedirects.cache
+C:\Users\Device1\Documents\GitHub\MERN-WPF-API-AND-CLIENTS\DesktopApp\EmployeesSoftware\EmployeesSoftware\obj\Debug\Views\AccueilWindow.g.cs
+C:\Users\Device1\Documents\GitHub\MERN-WPF-API-AND-CLIENTS\DesktopApp\EmployeesSoftware\EmployeesSoftware\obj\Debug\Views\ConnectionWindow.g.cs
+C:\Users\Device1\Documents\GitHub\MERN-WPF-API-AND-CLIENTS\DesktopApp\EmployeesSoftware\EmployeesSoftware\obj\Debug\Views\FilmWindow.g.cs
+C:\Users\Device1\Documents\GitHub\MERN-WPF-API-AND-CLIENTS\DesktopApp\EmployeesSoftware\EmployeesSoftware\obj\Debug\Views\SeriesWindow.g.cs
+C:\Users\Device1\Documents\GitHub\MERN-WPF-API-AND-CLIENTS\DesktopApp\EmployeesSoftware\EmployeesSoftware\obj\Debug\Views\SignUpWindow.g.cs
+C:\Users\Device1\Documents\GitHub\MERN-WPF-API-AND-CLIENTS\DesktopApp\EmployeesSoftware\EmployeesSoftware\obj\Debug\App.g.cs
+C:\Users\Device1\Documents\GitHub\MERN-WPF-API-AND-CLIENTS\DesktopApp\EmployeesSoftware\EmployeesSoftware\obj\Debug\EmployeesSoftware_MarkupCompile.cache
+C:\Users\Device1\Documents\GitHub\MERN-WPF-API-AND-CLIENTS\DesktopApp\EmployeesSoftware\EmployeesSoftware\obj\Debug\EmployeesSoftware_MarkupCompile.lref
+C:\Users\Device1\Documents\GitHub\MERN-WPF-API-AND-CLIENTS\DesktopApp\EmployeesSoftware\EmployeesSoftware\obj\Debug\Views\AccueilWindow.baml
+C:\Users\Device1\Documents\GitHub\MERN-WPF-API-AND-CLIENTS\DesktopApp\EmployeesSoftware\EmployeesSoftware\obj\Debug\Views\ConnectionWindow.baml
+C:\Users\Device1\Documents\GitHub\MERN-WPF-API-AND-CLIENTS\DesktopApp\EmployeesSoftware\EmployeesSoftware\obj\Debug\Views\FilmWindow.baml
+C:\Users\Device1\Documents\GitHub\MERN-WPF-API-AND-CLIENTS\DesktopApp\EmployeesSoftware\EmployeesSoftware\obj\Debug\Views\SeriesWindow.baml
+C:\Users\Device1\Documents\GitHub\MERN-WPF-API-AND-CLIENTS\DesktopApp\EmployeesSoftware\EmployeesSoftware\obj\Debug\Views\SignUpWindow.baml
+C:\Users\Device1\Documents\GitHub\MERN-WPF-API-AND-CLIENTS\DesktopApp\EmployeesSoftware\EmployeesSoftware\obj\Debug\EmployeesSoftware.g.resources
+C:\Users\Device1\Documents\GitHub\MERN-WPF-API-AND-CLIENTS\DesktopApp\EmployeesSoftware\EmployeesSoftware\obj\Debug\EmployeesSoftware.Migrations.AddUsersToDBContext.resources
+C:\Users\Device1\Documents\GitHub\MERN-WPF-API-AND-CLIENTS\DesktopApp\EmployeesSoftware\EmployeesSoftware\obj\Debug\EmployeesSoftware.Migrations.ChangedUserModel.resources
+C:\Users\Device1\Documents\GitHub\MERN-WPF-API-AND-CLIENTS\DesktopApp\EmployeesSoftware\EmployeesSoftware\obj\Debug\EmployeesSoftware.Migrations.AddEmployeeCodesToDBContext.resources
+C:\Users\Device1\Documents\GitHub\MERN-WPF-API-AND-CLIENTS\DesktopApp\EmployeesSoftware\EmployeesSoftware\obj\Debug\EmployeesSoftware.Migrations.AddingSeedDataToDBForEmployeeCodes.resources
+C:\Users\Device1\Documents\GitHub\MERN-WPF-API-AND-CLIENTS\DesktopApp\EmployeesSoftware\EmployeesSoftware\obj\Debug\EmployeesSoftware.Properties.Resources.resources
+C:\Users\Device1\Documents\GitHub\MERN-WPF-API-AND-CLIENTS\DesktopApp\EmployeesSoftware\EmployeesSoftware\obj\Debug\EmployeesSoftware.csproj.GenerateResource.cache
+C:\Users\Device1\Documents\GitHub\MERN-WPF-API-AND-CLIENTS\DesktopApp\EmployeesSoftware\EmployeesSoftware\obj\Debug\EmployeesSoftware.csproj.CoreCompileInputs.cache
+C:\Users\Device1\Documents\GitHub\MERN-WPF-API-AND-CLIENTS\DesktopApp\EmployeesSoftware\EmployeesSoftware\obj\Debug\EmployeesSoftware.csproj.CopyComplete
+C:\Users\Device1\Documents\GitHub\MERN-WPF-API-AND-CLIENTS\DesktopApp\EmployeesSoftware\EmployeesSoftware\obj\Debug\EmployeesSoftware.exe
+C:\Users\Device1\Documents\GitHub\MERN-WPF-API-AND-CLIENTS\DesktopApp\EmployeesSoftware\EmployeesSoftware\obj\Debug\EmployeesSoftware.pdb
